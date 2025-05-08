@@ -1,0 +1,199 @@
+header{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    /* border:1px solid black;
+    background-color: burlywood; */
+    margin-top: none;
+}
+.nav-bar{
+    margin:30px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap: 30px;
+}
+a{
+    text-decoration: none;
+    margin:5px;
+    font-size:20px;
+    color:black;
+
+}
+body{
+    margin:0;
+    padding:0;
+}
+.hero-section{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 15px;
+    margin-bottom:50px;
+}
+.hero-image{
+    object-fit: cover;
+    width:800px;
+    height:600px;
+    padding-right:30px;
+    border-radius: 20px;
+
+}
+.hero-content h5{
+    margin-bottom:90px;
+    text-align:center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:rgba(0, 0, 0, 0.644);
+}
+.hero-content h2{
+    margin-bottom:120px;
+    text-align:center;
+    font-size: 60px;
+    line-height: 85px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 25px;;
+}
+.hero-content p{
+    text-align: center;
+    color:gray;
+    margin-top:50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.about{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap:15px;
+    margin-bottom:200px;
+}
+.story-content p{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    line-height: 35px;
+}
+.story-content h2{
+    margin-bottom:150px;
+    text-align:center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 60px;
+
+}
+.base-image{
+    object-fit:cover;
+    padding:30px;
+    width:400px;
+    height:600px;
+    position:relative;
+}
+.overlay-image{
+    object-fit:cover;
+    width:350px;
+    height:500px;
+    position:absolute;
+    left:25%;
+    top:1000px;
+
+}
+.popular-categories{
+    display:flex;
+    justify-content: space-evenly;
+    gap:40px;
+    padding: 5px;
+    margin-top:20px;
+}
+.category-image{
+    object-fit: cover;
+    height:400px;
+    width:300px;
+    border-radius:190px;
+    margin-bottom: 20px;
+}
+.cards{
+    display:flex;
+    justify-content: flex-start;
+    gap:30px;
+    padding: 20px;
+    margin-top:80px;
+
+}
+.product-image{
+    object-fit: cover;
+    height:300px;
+    width:300px;
+    border-radius: 50%;
+    margin-bottom: 40px;
+}
+.category{
+    padding:50px;
+}
+button{
+    background-color: hex(#edede9);
+    width:200px;
+    height:40px;
+    display:block;
+    margin:0 auto;
+    margin-top:40px;
+    color:black;
+
+}
+button:hover{
+    background-color: green;
+}
+.product{
+    border:1px solid #ddd;
+    padding:30px;
+    height:550px;
+    margin-bottom:50px;
+
+}
+.product:hover{
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+
+}
+h2,h4{
+    text-align:center;
+}
+.avatar-image{
+    width: 50px;
+    height:50px;
+    object-fit: cover;
+    border-radius: 30px;
+    position:relative;
+    left: 190px;
+    bottom:15px;
+    margin-bottom: 1px;
+}
+.checked{
+    color:orange;
+}
+#testimonials{
+    padding:40px;
+    background-color: #f2f4f3;
+
+
+
+}
+.testimonial-card{
+    display: flex;
+    justify-content: flex-start;
+    gap:40px;
+    margin:30px;
+
+}
+.testimonial{
+    gap:40px;
+    border: 1px solid white;
+    background-color: white;
+    width:500px;
+    margin-top:20px;
+    
+
+}
+
+.testimonial-content{
+    text-align:center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
