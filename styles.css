@@ -31,33 +31,49 @@ body{
     gap: 15px;
     margin-bottom:50px;
 }
-.hero-image{
-    object-fit: cover;
-    width:800px;
-    height:600px;
+.carousel-slide{
+    width: 100%;
+
+}
+
+.carousel-inner{
+
+    width:100%;
+    height:550px;
     padding-right:30px;
     border-radius: 20px;
-
+    display:block;
+    float:none;
+}
+.carousel-item{
+    width:100%;
+    height:100%;
+}
+.carousel-item img{
+    object-fit: cover;
+    width:100%;
+    height:100%;
 }
 .hero-content h5{
     margin-bottom:90px;
     text-align:center;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    color:rgba(0, 0, 0, 0.644);
+    font-size:20px;
 }
 .hero-content h2{
     margin-bottom:120px;
     text-align:center;
     font-size: 60px;
-    line-height: 85px;
+    /* line-height: 85px; */
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin-bottom: 25px;;
 }
 .hero-content p{
     text-align: center;
-    color:gray;
+    /* color:gray; */
     margin-top:50px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 25px;;
 }
 .about{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -66,7 +82,7 @@ body{
     grid-template-columns: 1fr 1fr;
     align-items: center;
     gap:15px;
-    margin-bottom:200px;
+    margin-bottom:100px;
 }
 .story-content p{
     text-align: center;
@@ -75,7 +91,7 @@ body{
     line-height: 35px;
 }
 .story-content h2{
-    margin-bottom:150px;
+    margin-bottom:120px;
     text-align:center;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 60px;
@@ -84,11 +100,11 @@ body{
 .base-image{
     object-fit:cover;
     padding:30px;
-    width:400px;
+    width:700px;
     height:600px;
-    position:relative;
+
 }
-.overlay-image{
+/* .overlay-image{
     object-fit:cover;
     width:350px;
     height:500px;
@@ -96,14 +112,15 @@ body{
     left:25%;
     top:1000px;
 
-}
+} */
 .popular-categories{
     display:flex;
     justify-content: space-evenly;
     gap:40px;
     padding: 5px;
-    margin-top:20px;
+    margin-top:10px;
 }
+
 .category-image{
     object-fit: cover;
     height:400px;
@@ -131,12 +148,13 @@ body{
 }
 button{
     background-color: hex(#edede9);
-    width:200px;
+    width:150px;
     height:40px;
     display:block;
-    margin:0 auto;
+    margin:20px 0 auto;
     margin-top:40px;
     color:black;
+    align-content: center;
 
 }
 button:hover{
@@ -147,6 +165,10 @@ button:hover{
     padding:30px;
     height:550px;
     margin-bottom:50px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
 }
 .product:hover{
@@ -155,6 +177,10 @@ button:hover{
 }
 h2,h4{
     text-align:center;
+}
+.product-text{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
 }
 .avatar-image{
     width: 50px;
@@ -189,7 +215,7 @@ h2,h4{
     background-color: white;
     width:500px;
     margin-top:20px;
-    
+
 
 }
 
